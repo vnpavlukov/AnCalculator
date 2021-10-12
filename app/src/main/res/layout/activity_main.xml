@@ -37,7 +37,7 @@
 
         <TextView
             style="@style/OperatorButton"
-            android:text="<=">
+            android:text="Back">
 
         </TextView>
 
@@ -114,7 +114,7 @@
         android:layout_weight="1">
 
         <TextView
-            style="@style/OperatorButton"
+            style="@style/NumberButton"
             android:text="1">
 
         </TextView>
@@ -162,7 +162,7 @@
         </TextView>
 
         <TextView
-            style="@style/NumberButton"
+            style="@style/OperatorButton"
             android:text="=">
 
         </TextView>
