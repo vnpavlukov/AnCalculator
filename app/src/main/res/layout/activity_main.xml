@@ -14,7 +14,7 @@
         android:text="answer" />
 
     <TextView
-        android:id="@+id/user_input"
+        android:id="@+id/userInput"
         style="@style/InputOutputView"
         android:text="userInput" />
 
@@ -24,24 +24,28 @@
         android:layout_weight="1">
 
         <TextView
+            android:id="@+id/bracketOpen"
             style="@style/OperatorButton"
             android:text="(">
 
         </TextView>
 
         <TextView
+            android:id="@+id/bracketClose"
             style="@style/OperatorButton"
             android:text=")">
 
         </TextView>
 
         <TextView
+            android:id="@+id/buttonBackSpace"
             style="@style/OperatorButton"
-            android:text="Back">
+            android:text="<=">
 
         </TextView>
 
         <TextView
+            android:id="@+id/buttonClear"
             style="@style/OperatorButton"
             android:text="C">
 
@@ -54,24 +58,28 @@
         android:layout_weight="1">
 
         <TextView
+            android:id="@+id/button7"
             style="@style/NumberButton"
             android:text="7">
 
         </TextView>
 
         <TextView
+            android:id="@+id/button8"
             style="@style/NumberButton"
             android:text="8">
 
         </TextView>
 
         <TextView
+            android:id="@+id/button9"
             style="@style/NumberButton"
             android:text="9">
 
         </TextView>
 
         <TextView
+            android:id="@+id/buttonDivide"
             style="@style/OperatorButton"
             android:text="/">
 
@@ -84,24 +92,28 @@
         android:layout_weight="1">
 
         <TextView
+            android:id="@+id/button4"
             style="@style/NumberButton"
             android:text="4">
 
         </TextView>
 
         <TextView
+            android:id="@+id/button5"
             style="@style/NumberButton"
             android:text="5">
 
         </TextView>
 
         <TextView
+            android:id="@+id/button6"
             style="@style/NumberButton"
             android:text="6">
 
         </TextView>
 
         <TextView
+            android:id="@+id/buttonMinus"
             style="@style/OperatorButton"
             android:text="-">
 
@@ -114,24 +126,28 @@
         android:layout_weight="1">
 
         <TextView
+            android:id="@+id/button1"
             style="@style/NumberButton"
             android:text="1">
 
         </TextView>
 
         <TextView
+            android:id="@+id/button2"
             style="@style/NumberButton"
             android:text="2">
 
         </TextView>
 
         <TextView
+            android:id="@+id/button3"
             style="@style/NumberButton"
             android:text="3">
 
         </TextView>
 
         <TextView
+            android:id="@+id/buttonPlus"
             style="@style/OperatorButton"
             android:text="+">
 
@@ -144,24 +160,28 @@
         android:layout_weight="1">
 
         <TextView
+            android:id="@+id/buttonChangeSigh"
             style="@style/NumberButton"
             android:text="+/-">
 
         </TextView>
 
         <TextView
+            android:id="@+id/button0"
             style="@style/NumberButton"
             android:text="0">
 
         </TextView>
 
         <TextView
+            android:id="@+id/buttonDor"
             style="@style/NumberButton"
             android:text=".">
 
         </TextView>
 
         <TextView
+            android:id="@+id/buttonEqual"
             style="@style/OperatorButton"
             android:text="=">
 
